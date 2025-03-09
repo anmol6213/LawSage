@@ -1,2 +1,2 @@
 # LawSage
-LLM powered legal advisory platform featuring various fine-tuned models and RAG system.
+Lawsage is a legal advisory platform powered by LLM, featuring various models fine-tuned on Indian laws, regulations, relevant articles, legal advice forum threads, and other legal texts. It includes a Retrieval-Augmented Generation (RAG) based chat interface that uses a dataset comprising the Indian Constitution, Central Acts, and State Acts legislation. This dataset, compiled into a text corpus and stored as vector embeddings, serves as the underlying context for generating responses.
