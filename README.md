@@ -49,7 +49,7 @@ VITE_HUGGINGFACE_API_KEY=your_huggingface_api_key
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/anmol6213/LawSage.git
 cd lawsage
 ```
 
