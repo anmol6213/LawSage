@@ -56,6 +56,7 @@ LawSage simplifies legal information, making it accessible to everyone. Whether 
     ```
 
 **Project Structure:**
+
 lawsage/
 ├── src/
 │   ├── components/      # React components
