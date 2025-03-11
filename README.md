@@ -1,108 +1,125 @@
-# LawSage - AI-Powered Legal Assistant for Indian Law
+# Lawsage - AI-Powered Legal Assistant
 
-**Empowering You with Instant Legal Insights and Guidance**
-
-LawSage is an intelligent legal assistant designed to demystify Indian laws, legal procedures, and your fundamental rights. Leveraging cutting-edge AI, we provide an interactive chat interface to help you navigate the complexities of the Indian legal system.
-
-**Unlock Legal Clarity with LawSage:**
-
-* **AI-Powered Legal Assistance:** Get instant, accurate responses to your legal queries with our advanced AI model (microsoft/phi-2 via HuggingFace Inference API).
-* **Interactive Chat Interface:** Engage in natural conversations to understand legal concepts and procedures.
-* **Comprehensive Legal Database:** Access a wealth of information on Indian laws, categorized for easy navigation.
-* **Supreme Court Judgments:** Stay informed with a dedicated section for key Supreme Court rulings.
-* **Secure User Authentication:** Protect your data with Supabase Auth's robust email and password authentication.
-* **Persistent Chat History:** Review your past conversations and saved responses anytime.
-* **Responsive Design:** Access LawSage seamlessly on any device.
-* **Categorized Legal Documents:** Find relevant legal information quickly with our intuitive categorization.
+Lawsage is an intelligent legal assistant application designed to provide information about Indian laws, legal procedures, and rights. Built with modern web technologies, it offers an interactive chat interface powered by AI to help users understand legal concepts and procedures.
 
 ![Lawsage Screenshot](https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=1200)
 
-**Why Choose LawSage?**
+## Features
 
-LawSage simplifies legal information, making it accessible to everyone. Whether you're a student, a professional, or simply seeking clarity on your rights, LawSage is your trusted legal companion.
+- 🤖 AI-powered legal assistance
+- 💬 Interactive chat interface
+- 📚 Comprehensive legal database
+- 🔒 Secure user authentication
+- 💾 Chat history persistence
+- 📱 Responsive design
+- 📑 Legal document categories
+- ⚖️ Supreme Court judgments section
 
-**Tech Stack:**
+## Tech Stack
 
-* **Frontend:** React with TypeScript
-* **Styling:** Tailwind CSS
-* **Authentication & Database:** Supabase
-* **AI Model:** HuggingFace Inference API (microsoft/phi-2)
-* **Icons:** Lucide React
-* **Build Tool:** Vite
-* **Routing:** React Router DOM
+- **Frontend Framework**: React with TypeScript
+- **Styling**: Tailwind CSS
+- **Authentication**: Supabase Auth
+- **Database**: Supabase
+- **AI Model**: HuggingFace Inference API (microsoft/phi-2)
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
 
-**Getting Started:**
+## Prerequisites
 
-1.  **Prerequisites:**
-    * Node.js (v18+)
-    * npm or yarn
-    * Supabase account
-    * HuggingFace API key
+Before you begin, ensure you have:
 
-2.  **Environment Variables:**
-    * Create a `.env` file with:
-        ```env
-        VITE_SUPABASE_URL=your_supabase_url
-        VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-        VITE_HUGGINGFACE_API_KEY=your_huggingface_api_key
-        ```
+- Node.js (v18 or higher)
+- npm or yarn
+- Supabase account
+- HuggingFace API key
 
-3.  **Installation:**
-    ```bash
-    git clone [https://github.com/anmol6213/LawSage.git](https://github.com/anmol6213/LawSage.git)
-    cd lawsage
-    npm install
-    npm run dev
-    ```
+## Environment Variables
 
-**Project Structure:**
+Create a `.env` file in the root directory with:
 
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_HUGGINGFACE_API_KEY=your_huggingface_api_key
+```
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/anmol6213/LawSage.git
+cd lawsage
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
 lawsage/
 ├── src/
-│   ├── components/      # React components
-│   ├── lib/             # Utility functions and API clients
-│   ├── App.tsx          # Main application component
-│   └── main.tsx         # Application entry point
+│   ├── components/     # React components
+│   ├── lib/           # Utility functions and API clients
+│   ├── App.tsx        # Main application component
+│   └── main.tsx       # Application entry point
 ├── public/            # Static assets
 └── package.json       # Project dependencies and scripts
+```
 
-**Key Features in Detail:**
+## Features in Detail
 
-* **Authentication:**
-    * Email/password authentication
-    * Protected routes
-    * Session management
-* **Chat Interface:**
-    * Real-time AI responses
-    * Markdown support
-    * Message history
-    * Loading states
-    * Error handling
-* **Navigation:**
-    * Intuitive sidebar navigation
-    * Legal category sections
-    * Profile management
-    * Saved responses
+### Authentication
+- Email and password authentication
+- Protected routes
+- Session management
 
-**Contributing:**
+### Chat Interface
+- Real-time AI responses
+- Markdown support
+- Message history
+- Loading states
+- Error handling
 
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+### Navigation
+- Intuitive sidebar navigation
+- Legal category sections
+- Profile management
+- Saved responses
 
-**License:**
+## Contributing
 
-This project is licensed under the MIT License.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-**Acknowledgments:**
+## License
 
-* [Supabase](https://supabase.com/)
-* [HuggingFace](https://huggingface.co/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Lucide](https://lucide.dev/)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Support:**
+## Acknowledgments
 
-Email support@lawsage.com or open an issue on GitHub.
+- [Supabase](https://supabase.com/) for authentication and database
+- [HuggingFace](https://huggingface.co/) for AI model hosting
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [Lucide](https://lucide.dev/) for icons
+
+## Support
+
+For support, email support@lawsage.com or open an issue in the repository.
